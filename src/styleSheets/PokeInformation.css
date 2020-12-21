@@ -1,0 +1,77 @@
+#backStyle {
+  background-color: #e08777;
+  height: 100vh;
+}
+
+#indivPokeCont {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  margin-left: 15%;
+  background-color: #597fbd;
+  margin-right: 10%;
+  border-radius: 10px;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+#idTypesCont {
+  display: flex;
+  padding-left: 3%;
+  padding-top: 3%;
+  flex-direction: row;
+  padding-bottom: 1%;
+
+  border-radius: 10px;
+  margin-right: 10%;
+}
+
+.typesPoke {
+  margin-left: auto;
+  margin-right: 15%;
+  text-transform: capitalize;
+}
+
+#imgStatsPoke {
+  display: flex;
+  flex-direction: row;
+}
+
+#statBars {
+  padding-left: 5%;
+  margin-left: auto;
+  margin-right: 15%;
+  text-transform: capitalize;
+}
+
+#imgStyle {
+  padding-left: 15px;
+  margin-left: 30%;
+  margin-top: 15%;
+}
+
+.progressStyle {
+  width: 40em;
+  color: aqua;
+}
+
+#nameStyle {
+  text-transform: capitalize;
+  padding-left: 50px;
+  padding-bottom: 15px;
+  padding-top: 30px;
+  font-size: 1.5em;
+}
+
+#movesStyle {
+  padding-left: 10%;
+  padding-bottom: 4%;
+  text-transform: capitalize;
+}
+
+#btnHome {
+  margin-top: 20px;
+  margin-left: 30px;
+  background-color: darkslategray;
+  border-radius: 10px;
+}

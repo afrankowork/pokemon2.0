@@ -1,0 +1,76 @@
+#bigContainer {
+  background-color: #597fbd;
+}
+#pokeContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 40px;
+}
+
+#headerLand {
+  background-color: #e08777;
+  text-align: center;
+  padding-top: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  color: white;
+}
+
+.indivPoke {
+  border: 3px solid tan;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 50px;
+  background-color: #e08777;
+  text-transform: capitalize;
+  color: aliceblue;
+  border-radius: 15px;
+}
+
+.pokeID {
+  background-color: #b8b7b0;
+  margin-left: 3%;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+.buttonStyle {
+  color: white;
+  text-align: center;
+}
+
+.buttonStyle:hover {
+  color: white;
+}
+
+.buttonSpacing {
+  margin-top: 20px;
+  margin-left: 30px;
+  background-color: darkslategray;
+  border-radius: 10px;
+}
+
+#searchStyle {
+  width: 400px;
+  margin-left: 30%;
+  background-color: darkslategray;
+  border: darkslategray;
+  border-radius: 7px;
+  color: white;
+  height: 35px;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
